@@ -1,0 +1,37 @@
+.Sidebar-container{
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    top: 70px;
+    background-color: #171c26;
+    color: white;
+}
+
+.text-sidebar{
+    font-size: 14px;
+}
+
+.sidebar-wrapper{
+}
+
+.title-text-cont{
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.sidebar-menus{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.sidebar-menu-icon-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 30px;
+}

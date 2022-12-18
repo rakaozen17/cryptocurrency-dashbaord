@@ -4,6 +4,8 @@ import logo from '../../public/coinbird-logo.png'
 import Hamburger from '../Hamburger/Hamburger'
 import { Notifications, ChatBubble, BarChart, ArrowDropDown, Person3 } from '@mui/icons-material'
 
+
+
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
     const [isNotification, setIsNotification] = useState<boolean>(true);
@@ -34,25 +36,25 @@ const Header = () => {
                     <ul className="menus">
                         <li className="menu-items">
                             <div className="menu-icon-container">
-                                <div className="notification-enabled"></div>
-                                <Notifications style={{ fontSize:'20px' }}/> 
+                               { isNotification && <div className="notification-enabled"></div>}
+                               <Notifications style={{ fontSize:'20px', color:'#3b404c'}} /> 
                             </div>
                         </li>
                         <li className="menu-items">
                             <div className="menu-icon-container">
-                                <div className="notification-enabled"></div>
-                                <ChatBubble style={{ fontSize:'20px' }}/> 
+                                { isNotification && <div className="notification-enabled"></div>}
+                                <ChatBubble style={{ fontSize:'20px', color:'#3b404c' }} /> 
                             </div>
                         </li>
                         <li className="menu-items">
                             <div className="menu-icon-container">
-                                <BarChart style={{ fontSize:'25px' }}/> 
+                                <BarChart style={{ fontSize:'25px', color:'#3b404c' }} /> 
                                 <p className="menu-icon-p">Reports</p>
                             </div>
                         </li>
                         <li className="menu-items">
                             <div className="menu-icon-container">
-                                <Person3 style={{ fontSize:'25px' }}/> 
+                                <Person3 style={{ fontSize:'20px', color:'#3b404c' }}/> 
                                 <p className="menu-icon-p">Rama Perdana</p>
                                 <ArrowDropDown style={{ fontSize:'25px' }}/> 
                             </div>

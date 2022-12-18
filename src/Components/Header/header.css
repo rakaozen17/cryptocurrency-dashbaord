@@ -36,10 +36,9 @@
 .title-container{
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: center;
-    flex: 0.3;
-    gap: 30px;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 
 .icon{
@@ -85,4 +84,8 @@
     position: absolute;
     right: 0px;
     top: 0px;
+}
+
+.menu-icon-p{
+  color: #696c73;
 }

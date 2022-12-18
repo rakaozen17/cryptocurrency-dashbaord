@@ -1,0 +1,88 @@
+.main-header{
+    height: 70px;
+    width: 100vw;
+    background-color: #171c26;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    overflow: hidden;
+    height: 100%;
+    margin: 0px 30px;
+}
+
+.left-header{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0px 30px;
+
+}
+
+.icon-container{
+    width: 200px;
+    height: 100%; 
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex: 0.3;
+    gap: 30px;
+}
+
+.icon{
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.right-header{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menus{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-icon-container{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.notification-enabled{
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

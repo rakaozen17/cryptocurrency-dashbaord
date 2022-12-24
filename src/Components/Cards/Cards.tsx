@@ -10,7 +10,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ coinName, priceChange, percentageChange,imgUrl }) => {
   return (
-    <div className="card">
+    <div className={`card`}>
       <div className="card-con">
         <div className="card-top">
               <div className="img-card-container">

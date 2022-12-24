@@ -1,0 +1,29 @@
+.chart-container{
+    width: 800px;
+    background-color: #171C26;
+    box-shadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)';
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+
+.chart-detail{
+    margin-left: 50px;
+}
+
+.chart-div{
+    margin-left: 20px;
+}
+
+.chart-title{
+    color: white;
+    font-weight: 700;
+}
+
+.chart-description{
+    color: white;
+
+}
